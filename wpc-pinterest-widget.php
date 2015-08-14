@@ -2,7 +2,7 @@
 /*
 Plugin Name: Pinterest Widget
 Plugin URI: http://webplantmedia.com/starter-themes/wordpresscanvas/features/widgets/wordpress-canvas-widgets/
-Description: Add official Pinterst widget to your site. Insert your Pinterest board widget, profile widget, and pin widget to any widget area.
+Description: Add official Pinterest widget to your site. Insert your Pinterest board widget, profile widget, and pin widget to any widget area.
 Author: Chris Baldelomar
 Author URI: http://webplantmedia.com/
 Version: 1.1

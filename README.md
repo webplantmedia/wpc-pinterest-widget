@@ -9,7 +9,7 @@
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
-Add official Pinterst widget to your site. Insert your Pinterest board widget, profile widget, and pin widget to any widget area.
+Add official Pinterest widget to your site. Insert your Pinterest board widget, profile widget, and pin widget to any widget area.
 
 ## Description ##
 
@@ -29,8 +29,8 @@ Yes, I do accept donations.  If you want to buy me a sandwich or something, you 
 
 ## Installation ##
 
-1. Uzip the `wpc-pinterst-widget.zip` folder.
-2. Upload the `wpc-pinterst-widget` folder to your `/wp-content/plugins` directory.
+1. Uzip the `wpc-pinterest-widget.zip` folder.
+2. Upload the `wpc-pinterest-widget` folder to your `/wp-content/plugins` directory.
 3. In your WordPress dashboard, head over to the *Plugins* section.
 4. Activate *Pinterest Widget*.
 
