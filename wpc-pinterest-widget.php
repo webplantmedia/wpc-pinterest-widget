@@ -12,31 +12,10 @@ License: GPLv2 or later
 define( 'WPC_PINTEREST_WIDGET_VERSION', '1.1' );
 
 function wpc_pinterest_widget_enqueue_scripts() {
-	wp_register_script( 'pinterest', '//assets.pinterest.com/js/pinit.js', array(), false, true);
+	wp_deregister_script( 'pinit' );
+	wp_register_script( 'pinit', '//assets.pinterest.com/js/pinit.js', array(), false, true);
 }
 add_action('wp_enqueue_scripts', 'wpc_pinterest_widget_enqueue_scripts');
-
-function wpc_pinterest_widget_enqueue_admin_scripts() {
-	$screen = get_current_screen();
-
-	if ( 'widgets' == $screen->id ) {
-		wp_deregister_script( 'wpc-widgets-admin-js' );
-
-		wp_enqueue_media();
-		wp_register_script( 'wpc-widgets-admin-js', plugin_dir_url( __FILE__ ) . 'js/admin.js', array ( 'jquery' ), WPC_PINTEREST_WIDGET_VERSION, true );
-		wp_enqueue_script( 'wpc-widgets-admin-js' );
-	}
-}
-add_action('admin_enqueue_scripts', 'wpc_pinterest_widget_enqueue_admin_scripts' );
-
-function wpc_pinterest_widget_customize_enqueue() {
-	wp_deregister_script( 'wpc-widgets-admin-js' );
-
-	wp_enqueue_media();
-	wp_register_script( 'wpc-widgets-admin-js', plugin_dir_url( __FILE__ ) . 'js/admin.js', array ( 'jquery' ), WPC_PINTEREST_WIDGET_VERSION, true );
-	wp_enqueue_script( 'wpc-widgets-admin-js' );
-}
-add_action( 'customize_controls_enqueue_scripts', 'wpc_pinterest_widget_customize_enqueue' );
 
 function wpc_pinterest_widget_widgets_init() {
 	register_widget('WPC_Pinterest_Widget');
