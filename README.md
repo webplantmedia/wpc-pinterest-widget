@@ -13,7 +13,7 @@ Add official Pinterst widget to your site. Insert your Pinterest board widget, p
 
 ## Description ##
 
-See the widgets in action at [WP Canvas - Widgets](http://webplantmedia.com/starter-themes/wordpresscanvas/features/widgets/wordpress-canvas-widgets/)
+See the [Pinterest widget in action](http://webplantmedia.com/starter-themes/wordpresscanvas/features/widgets/wordpress-canvas-widgets/)
 
 ### Professional Support
 
