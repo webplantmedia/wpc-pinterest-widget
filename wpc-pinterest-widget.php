@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: WP Canvas - Pinterest Widget
-Plugin URI: http://webplantmedia.com/starter-themes/wordpresscanvas/features/widgets/wordpress-canvas-widgets/
+Plugin Name: Pinterest Widget by Angie Makes
+Plugin URI: http://angiemakes.com/feminine-wordpress-blog-themes-women/
 Description: Add official Pinterest widget to your site. Insert your Pinterest board widget, profile widget, and pin widget to any widget area.
 Author: Chris Baldelomar
-Author URI: http://webplantmedia.com/
-Version: 1.2
+Author URI: http://angiemakes.com/
+Version: 1.3
 License: GPLv2 or later
 */
 
@@ -14,7 +14,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WPC_PINTEREST_WIDGET_VERSION', '1.2' );
+define( 'WPC_PINTEREST_WIDGET_VERSION', '1.3' );
 
 function wpc_pinterest_widget_enqueue_scripts() {
 	wp_deregister_script( 'pinit' );
